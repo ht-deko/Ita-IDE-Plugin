@@ -110,6 +110,8 @@ const
     {$IFDEF VER330}'coreide260.bpl'{$ENDIF} // 10.3 Rio
     {$IFDEF VER340}'coreide270.bpl'{$ENDIF} // 10.4 Sydney
     {$IFDEF VER350}'coreide280.bpl'{$ENDIF} // 11 Alexandria
+    {$IFDEF VER350}'coreide290.bpl'{$ENDIF} // 12 Athens
+    {$IFDEF VER350}'coreide370.bpl'{$ENDIF} // 13 Florence
     ;
 
   HighlightRegKey =
@@ -126,6 +128,8 @@ const
     {$IFDEF VER330}'\Software\Embarcadero\BDS\20.0\Editor\Highlight\'{$ENDIF} // 10.3 Rio
     {$IFDEF VER340}'\Software\Embarcadero\BDS\21.0\Editor\Highlight\'{$ENDIF} // 10.4 Sydney
     {$IFDEF VER350}'\Software\Embarcadero\BDS\22.0\Editor\Highlight\'{$ENDIF} // 11 Alexandria
+    {$IFDEF VER360}'\Software\Embarcadero\BDS\23.0\Editor\Highlight\'{$ENDIF} // 12 Athens
+    {$IFDEF VER370}'\Software\Embarcadero\BDS\37.0\Editor\Highlight\'{$ENDIF} // 13 Florence
     ;
   HighlightRegName = 'Background Color New';
 
