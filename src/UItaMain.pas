@@ -110,8 +110,8 @@ const
     {$IFDEF VER330}'coreide260.bpl'{$ENDIF} // 10.3 Rio
     {$IFDEF VER340}'coreide270.bpl'{$ENDIF} // 10.4 Sydney
     {$IFDEF VER350}'coreide280.bpl'{$ENDIF} // 11 Alexandria
-    {$IFDEF VER350}'coreide290.bpl'{$ENDIF} // 12 Athens
-    {$IFDEF VER350}'coreide370.bpl'{$ENDIF} // 13 Florence
+    {$IFDEF VER360}'coreide290.bpl'{$ENDIF} // 12 Athens
+    {$IFDEF VER370}'coreide370.bpl'{$ENDIF} // 13 Florence
     ;
 
   HighlightRegKey =
